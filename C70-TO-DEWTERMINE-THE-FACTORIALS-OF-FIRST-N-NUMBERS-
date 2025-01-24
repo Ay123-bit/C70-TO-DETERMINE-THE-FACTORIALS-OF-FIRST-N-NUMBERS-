@@ -1,0 +1,21 @@
+//INPUT
+#include<stdio.h>
+    int main(){
+        int n;
+        printf("Enter a number: ");
+        scanf("%d", &n);
+        int p=1;
+        for(int i=1;i<=n;i++){
+            p=p*i;
+            printf("The factorial %d is : %d\n", i, p);
+        }
+        return 0;
+    }
+    //OUTPUT
+The factorial 1 is : 1
+The factorial 2 is : 2
+The factorial 3 is : 6
+The factorial 4 is : 24
+The factorial 5 is : 120
+
+
